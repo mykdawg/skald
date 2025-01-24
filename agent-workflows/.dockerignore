@@ -1,0 +1,15 @@
+Dockerfile
+.DS_Store
+README.md
+.dockerignore
+*.code-workspace
+.env*
+.github
+.idea
+node_modules
+.npmrc
+.vscode/launch.json
+__fixtures__
+__mocks__
+test
+vitest*

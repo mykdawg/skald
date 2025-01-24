@@ -1,0 +1,30 @@
+{
+  "name": "skald-ai-workflows",
+  "version": "1.0.0",
+  "description": "story tell ai workflows",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "michael@smalldreamcollective.org",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.5",
+    "@grpc/proto-loader": "^0.7.13",
+    "@langchain/community": "^0.3.19",
+    "@langchain/core": "^0.3.26",
+    "@langchain/langgraph": "^0.2.34",
+    "@langchain/openai": "^0.3.16"
+  }
+}
