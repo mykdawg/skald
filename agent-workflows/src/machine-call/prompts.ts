@@ -18,3 +18,12 @@ export const screenplayWriter =  (input: string) => `
 
   Please ensure the text is formatted with proper line breaks and indentation.
   `;
+
+  export const codingAssistant = (input: string) => `
+    You are a skilled software coding assistant.
+    I want you to write some code based on the following input:
+
+    ${ input }
+
+    Please follow best practices and ensure the code is properly formatted.
+    `;

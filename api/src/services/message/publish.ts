@@ -4,7 +4,7 @@ const { MESSAGING_HOST } = process.env;
 
 export async function publish(subject: string, data: any) {
   try {   
-    const timestamp = new Date().toISOString();
+    // const timestamp = new Date().toISOString();
 
     const nc = await connect({
       servers: MESSAGING_HOST

@@ -13,7 +13,7 @@
 
 import * as grpc from '@grpc/grpc-js';
 import * as protoLoader from '@grpc/proto-loader';
-import { getVoice, publish } from '../message';
+import { publish } from '../message';
 
 const { AGENT_WORKFLOWS_HOST } = process.env;
 

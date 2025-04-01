@@ -1,0 +1,1 @@
+{"version":3,"file":"promptRoutes.js","sourceRoot":"","sources":["../../src/routes/promptRoutes.ts"],"names":[],"mappings":";;AAEA,oCAGC;AALD,wEAAgE;AAEzD,KAAK,UAAU,YAAY,CAAC,OAAY,EAAE,OAAY;IAC3D,OAAO,CAAC,GAAG,CAAC,UAAU,EAAE,wBAAI,CAAC,CAAC;IAC9B,OAAO,CAAC,IAAI,CAAC,UAAU,EAAE,0BAAM,CAAC,CAAC;AACnC,CAAC"}

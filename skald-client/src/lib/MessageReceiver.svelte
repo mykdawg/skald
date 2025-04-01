@@ -38,7 +38,14 @@
   });
 </script>
 
-<div bind:this={messagePanel} class="message-panel">
+<div bind:this={messagePanel} class="code-panel">
+  {#if 1 > 100}
+  {#each $messages as code}
+  <div class="code-panel">
+    <pre><code>{code}</code></pre>
+  </div>
+  {/each}
+  {:else}
   <ul>
     {#each $messages as message}
       <li class="rainbow-text">
@@ -46,6 +53,7 @@
       </li>
     {/each}
   </ul>
+  {/if}
 </div>
 
 {#if $showOverlay}
@@ -55,6 +63,8 @@
     </div>
   </div>
 {/if}
+
+
 
 <style>
   .message-panel {
@@ -113,4 +123,25 @@
     font-size: 1.5rem;
     text-align: center;
   }
+
+  .code-panel {
+    background-color: #1e1e1e;
+    border-radius: 4px;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+
+  pre {
+    margin: 0;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  }
+
+  code {
+    color: #d4d4d4;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+
 </style>

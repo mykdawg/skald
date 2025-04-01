@@ -1,2 +1,2 @@
-export * from './llms.routes';
-export * from './prompt.routes';
+export * from './llmsRoutes';
+export * from './promptRoutes';

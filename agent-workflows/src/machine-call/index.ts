@@ -1,5 +1,5 @@
 import { ChatOpenAI } from '@langchain/openai';
-import { sciFiAuthor, screenplayWriter } from './prompts';
+import { codingAssistant, sciFiAuthor, screenplayWriter } from './prompts';
 
 // import {
 //   START,
@@ -64,6 +64,7 @@ const model = new ChatOpenAI(
 );
 
 const prompts = {
+  codingAssistant, 
   sciFiAuthor,
   screenplayWriter
 };
