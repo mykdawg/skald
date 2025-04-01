@@ -8,7 +8,7 @@
 
 <style>
   .code-panel {
-    background-color: #1e1e1e;
+    background-color: #ffffff;
     border-radius: 4px;
     padding: 1rem;
     overflow-x: auto;
@@ -26,4 +26,4 @@
     white-space: pre-wrap;
     word-break: break-all;
   }
-</style></div>
+</style>
