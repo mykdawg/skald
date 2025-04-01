@@ -1,0 +1,37 @@
+/* [project]/src/components/StoryComposePanel.module.css [app-client] (css) */
+.StoryComposePanel-module__v-_Nea__form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.StoryComposePanel-module__v-_Nea__textarea {
+  color: #000;
+  padding: .5rem;
+  margin: .5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.StoryComposePanel-module__v-_Nea__button {
+  padding: .75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: .5rem 0;
+}
+
+.StoryComposePanel-module__v-_Nea__button:hover {
+  background-color: #0056b3;
+}
+
+
+/*# sourceMappingURL=src_components_StoryComposePanel_module_a89a68.css.map*/

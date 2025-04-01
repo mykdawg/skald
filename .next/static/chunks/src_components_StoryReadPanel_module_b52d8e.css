@@ -1,0 +1,22 @@
+/* [project]/src/components/StoryReadPanel.module.css [app-client] (css) */
+.StoryReadPanel-module___0NQaG__message-panel {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 300px;
+  padding: 1rem;
+  margin: 0 auto 1rem;
+  overflow-y: auto;
+  width: 800px;
+}
+
+.StoryReadPanel-module___0NQaG__ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.StoryReadPanel-module___0NQaG__li {
+  padding: .5rem;
+  text-align: left;
+}
+
+/*# sourceMappingURL=src_components_StoryReadPanel_module_b52d8e.css.map*/
