@@ -17,7 +17,7 @@
 <main>
   <h1>skald</h1>
   <StoryPanel />
-  <div>
+  <!-- <div>
     <a href="https://svelte.dev" target="_blank" rel="noreferrer">
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
@@ -30,7 +30,7 @@
         <p>loading...</p>
       {/each}
     </ul>
-  </div>
+  </div> -->
 </main>
 
 <style>

@@ -57,8 +57,8 @@
   form {
     display: flex;
     flex-direction: column;
-    width: 800px;
-    margin: 0 auto;
+    width: 400px;
+    margin: 0 10px;
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;

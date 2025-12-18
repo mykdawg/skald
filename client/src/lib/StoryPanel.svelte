@@ -4,6 +4,17 @@
 </script>
 
 <div class="story-panel">
-  <MessageReceiver subject="story" />
-  <Message />
+  <div class="column">
+    <MessageReceiver subject="story" />
+  </div>
+  <div class="column">
+    <Message />
+  </div>
 </div>
+
+<style>
+  .story-panel .column {
+    float: left;
+    width: 50%;
+  }
+</style>
