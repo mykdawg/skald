@@ -19,7 +19,7 @@ const packageDefinition = loadSync(
 const helloProto = loadPackageDefinition(packageDefinition).hello as any;
 
 async function sayHello(call: any, callback: any) {
-  const message = await callLLM({ input: call.request.name, promptName: 'codingAssistant' });
+  const message = await callLLM({ input: call.request.name, promptName: 'sciFiAuthor' });
   callback(null, { message });
 }
 

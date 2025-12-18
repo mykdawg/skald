@@ -13,18 +13,18 @@
   "author": "michael@smalldreamcollective.org",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.13.17",
+    "@types/node": "^22.19.3",
     "eslint-config-standard-with-typescript": "^43.0.1",
-    "rimraf": "^6.0.1",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.2"
+    "rimraf": "^6.1.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@grpc/grpc-js": "^1.13.2",
-    "@grpc/proto-loader": "^0.7.13",
-    "@langchain/community": "^0.3.39",
-    "@langchain/core": "^0.3.43",
-    "@langchain/langgraph": "^0.2.62",
+    "@grpc/grpc-js": "^1.14.3",
+    "@grpc/proto-loader": "^0.7.15",
+    "@langchain/community": "^0.3.58",
+    "@langchain/core": "^0.3.79",
+    "@langchain/langgraph": "^0.2.74",
     "@langchain/openai": "^0.3.17"
   }
 }
