@@ -22,8 +22,8 @@
   "dependencies": {
     "@grpc/grpc-js": "^1.14.3",
     "@grpc/proto-loader": "^0.7.15",
-    "@langchain/community": "^0.3.58",
-    "@langchain/core": "^0.3.79",
+    "@langchain/community": "^0.3.59",
+    "@langchain/core": "^0.3.80",
     "@langchain/langgraph": "^0.2.74",
     "@langchain/openai": "^0.3.17"
   }
